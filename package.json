@@ -2,7 +2,7 @@
   "name": "flappy-bird-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://your-BrindhaRamachandran.github.io/flappy-bird-game",
+  "homepage": "https://BrindhaRamachandran.github.io/flappy-bird-game",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
