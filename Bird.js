@@ -2,7 +2,11 @@ import React, { useEffect, useState } from "react";
 
 const Bird = ({ top, velocity }) => {
   const [frame, setFrame] = useState(0);
-  const frames = ["/bird1.png", "/bird2.png", "/bird3.png"];
+  const frames = [
+  process.env.PUBLIC_URL + "/bird1.png",
+  process.env.PUBLIC_URL + "/bird2.png",
+  process.env.PUBLIC_URL + "/bird3.png"
+];
 
   useEffect(() => {
     const interval = setInterval(() => {
