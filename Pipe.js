@@ -7,13 +7,13 @@ const Pipe = ({ left, top, height, type }) => {
         position: "absolute",
         left: left,
         top: top,
-        width: 450,
+        width: 500,
         height: height,
         overflow: "hidden",
       }}
     >
       <img
-        src={type === "top" ? "/pipe-top.png" : "/pipe-bottom.png"}
+        src={type === "top" ? process.env.PUBLIC_URL + "/pipe-top.png" : process.env.PUBLIC_URL + "/pipe-bottom.png"}
         alt="pipe"
         style={{
           position: "absolute",
